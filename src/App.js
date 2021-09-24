@@ -1,14 +1,14 @@
-import { RecoilRoot } from 'recoil';
 import './App.css';
+
 import RecoilHolder from './components/Recoil/index.components';
+import ReduxHolder from './components/ReduxHolder/index.component';
 
 function App() {
   return (
-    <RecoilRoot>
-      <div className="App">
-        <RecoilHolder />
-      </div>
-    </RecoilRoot>
+    <div className="App">
+      <RecoilHolder />
+      <ReduxHolder />
+    </div>
   );
 }
 
